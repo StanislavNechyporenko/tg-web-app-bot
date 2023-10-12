@@ -10,7 +10,6 @@ bot.on('message', async (msg) => {
   const text = msg.text;
 
   if (text === '/start') {
-    console.log('RGFEW');
     await bot.sendMessage(chatId, 'Ниже появится кнопка, заполни форму', {
       reply_markup: {
         keyboard: [
